@@ -1,0 +1,24 @@
+# UrbanTwin 3D CAD Sample Model - Residential Apartment Block
+# Category: Residential Building (8-Story Structure)
+g Residential_Block_A
+v -15.0 0.0 -10.0
+v  15.0 0.0 -10.0
+v  15.0 26.0 -10.0
+v -15.0 26.0 -10.0
+v -15.0 0.0  10.0
+v  15.0 0.0  10.0
+v  15.0 26.0  10.0
+v -15.0 26.0  10.0
+f 1 2 3 4
+f 5 8 7 6
+f 1 5 6 2
+f 2 6 7 3
+f 3 7 8 4
+f 5 1 4 8
+
+g Balcony_Extension
+v -16.0 4.0 -11.0
+v  16.0 4.0 -11.0
+v  16.0 5.0 -11.0
+v -16.0 5.0 -11.0
+f 9 10 11 12
